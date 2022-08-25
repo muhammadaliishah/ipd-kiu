@@ -16,7 +16,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   <script src="./Front-end/js/home.js"></script>
-  <script src="./counter/counter-up/jquery.counterup.min.js"></script>
+  <script src="./Front-end/counter/counter-up/jquery.counterup.min.js"></script>
   <script>
     window.addEventListener("scroll", function() {
 
@@ -57,21 +57,36 @@
   <!-- header ends here -->
 
   <!-- navbar starts here -->
-  <nav style="background-color: #cccfd1;" class="navbar navbar-expand-lg navbar-light py-3 w-100 navigation sticky-top navigation_bar shadow justify-content-around">
+  <nav  style="background-color: #cccfd1;" id="scroll-to" class="navbar navbar-expand-lg navbar-light py-3 w-100 navigation sticky-top navigation_bar shadow justify-content-around">
     <a class="navbar-brand mr-5 text-white ml-5 w-20" href="#" data-value="home"><img src="./Front-end/assets/logo/logo.svg" alt="brand img" /></a>
     <div class="d-flex align-items-center w-100">
       <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         <i class="fas fa-align-justify text-white"></i>
       </button>
+
+      <img  id="scroll-image" hidden  src="./Front-end/assets/logo/logo.svg" style="width: 221px; height: 47px;"   alt="brand img" />
+      
+      <script>
+  
+       $('#scroll-to').scroll(function() {
+          
+    });
+      </script>
+
+      
       <div class="collapse navbar-collapse menu-bar w-100 justify-content-end">
         <ul class="navbar-nav justify-content-between">
           <li class="nav-item active">
+            <a class="h5" href="index.php" data-value="about">
             <a class="h5" href="index.php" data-value="about">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
                 Home</button><span class="sr-only">(current)</span>
             </a>
           </li>
+
+         
+
           <li class="nav-item">
             <a class="h5" href="Front-end/aboutus.php" data-value="Portfolio">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
