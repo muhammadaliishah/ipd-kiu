@@ -67,33 +67,33 @@
       <div class="collapse navbar-collapse menu-bar w-100 justify-content-end">
         <ul class="navbar-nav justify-content-between">
           <li class="nav-item active">
-            <a class="h5" href="#" data-value="about">
+            <a class="h5" href="index.php" data-value="about">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
                 Home</button><span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="h5" href="aboutus.php" data-value="Portfolio">
+            <a class="h5" href="Front-end/aboutus.php" data-value="Portfolio">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
                 About Us
               </button>
             </a>
             <div class="sub-menu-1">
               <ul>
-                <li><a href="staff.php" class="d-block">Meet Our Team</a></li>
-                <li><a href="aboutus.php" class="d-block">Our Vision</a></li>
-                <li><a href="aboutus.php" class="d-block">Our Culture</a></li>
+                <li><a href="Front-end/staff.php" class="d-block">Meet Our Team</a></li>
+                <li><a href="Front-end/aboutus.php" class="d-block">Our Vision</a></li>
+                <li><a href="Front-end/aboutus.php" class="d-block">Our Culture</a></li>
                 <li>
-                  <a href="aboutus.php" class="d-block">Our Services</a>
+                  <a href="Front-end/aboutus.php" class="d-block">Our Services</a>
                 </li>
                 <li>
-                  <a href="aboutus.php" class="d-block">Our Facilities</a>
+                  <a href="Front-end/aboutus.php" class="d-block">Our Facilities</a>
                 </li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="h5" href="courses.php" data-value="blog">
+            <a class="h5" href="Front-end/courses.php" data-value="blog">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
                 Courses
               </button>
@@ -104,9 +104,9 @@
                   <a href="#">IT Courses <i class="fas fa-angle-right text-dark"></i></a>
                   <div class="sub-menu-2">
                     <ul>
-                      <li><a href="webdiv.php">Web Development</a></li>
-                      <li><a href="graphic_d.php">Graphic Desiging</a></li>
-                      <li><a href="python.php">Python Programming</a></li>
+                      <li><a href="Front-end/webdiv.php">Web Development</a></li>
+                      <li><a href="Front-end/graphic_d.php">Graphic Desiging</a></li>
+                      <li><a href="Front-end/python.php">Python Programming</a></li>
                     </ul>
                   </div>
                 </li>
@@ -121,10 +121,10 @@
                           <i class="fas fa-angle-right text-dark"></i></a>
                         <div class="sub-menu-3">
                           <ul>
-                            <li><a href="hsk_I.php">HSK I</a></li>
-                            <li><a href="hsk_II.php">HSK II</a></li>
-                            <li><a href="hsk_III.php">HSK III</a></li>
-                            <li><a href="hsk_IV.php">HSK IV</a></li>
+                            <li><a href="Front-end/hsk_I.php">HSK I</a></li>
+                            <li><a href="Front-end/hsk_II.php">HSK II</a></li>
+                            <li><a href="Front-end/hsk_III.php">HSK III</a></li>
+                            <li><a href="Front-end/hsk_IV.php">HSK IV</a></li>
                           </ul>
                         </div>
                       </li>
@@ -135,9 +135,9 @@
                   <a href="#">Other Courses <i class="fas fa-angle-right text-dark"></i></a>
                   <div class="sub-menu-2">
                     <ul>
-                      <li><a href="shorthand.php">Shorthand Writing</a></li>
-                      <li><a href="ielts.php">IELTS Preparatory </a></li>
-                      <li><a href="huawei.php">Huawei Mechatronics </a></li>
+                      <li><a href="Front-end/shorthand.php">Shorthand Writing</a></li>
+                      <li><a href="Front-end/ielts.php">IELTS Preparatory </a></li>
+                      <li><a href="Front-end/huawei.php">Huawei Mechatronics </a></li>
                     </ul>
                   </div>
                 </li>
@@ -145,14 +145,14 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="h5" href="blogs.php" data-value="blog">
+            <a class="h5" href="Front-end/blogs.php" data-value="blog">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
                 Blogs
               </button>
             </a>
           </li>
           <li class="nav-item">
-            <a class="h5" href="contact.php" data-value="blog">
+            <a class="h5" href="Front-end/contact.php" data-value="blog">
               <button type="button" class="font-weight-normal btn nav-btn text-dark px-lg-4">
                 Contact Us
               </button>
@@ -166,8 +166,8 @@
             </a>
             <div class="sub-menu-1">
               <ul>
-                <li><a href="enroll.php">As Student</a></li>
-                <li><a href="trainer.php">As trainer</a></li>
+                <li><a href="Front-end/enroll.php">As Student</a></li>
+                <li><a href="Front-end/trainer.php">As trainer</a></li>
               </ul>
             </div>
           </li>
