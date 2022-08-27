@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true ){
 
-    header("location: http://localhost/IPD%20Codes/WeekEnd/WeekEnd/login.php" );
+    header("location: http://localhost/ipdcheck-master/Admin-panel/login.php" );
     exit;
 }
  ?>
@@ -102,7 +102,7 @@ if(in_array($inputtype , $allowedtype)){
   echo "file distination is " .$distination;
   // echo "this is type " . $type_input;
   move_uploaded_file($tmp_location  , $distinationx);
-  echo "uploaded to file ";  
+  // echo "uploaded to file "; s 
 } 
 
   
@@ -127,9 +127,7 @@ VALUES ( '$title', '$detail', '$duration', '$start', '$end', '$userid' ,'$instru
 '$rgend' , '$fee' ,'$distination');";
            
            $result2 = mysqli_query($con , $querys);
-           if($result2){
-               echo "submitted successfully...";
-           }
+          
        }        
      }
    }   ?>
@@ -279,3 +277,24 @@ if($rwo>0){
 </body>
 
 </html>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" id="logoutModal" href="logout.php" >Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -63,7 +63,7 @@ if($_SESSION['role'] == 'admin'){
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#" data-bs-target="#logoutModal" data-bs-toggle="modal"  class="text-white">
+                <a class="nav-link" href="logout.php" data-bs-target="#logoutModal" data-bs-toggle="modal"  class="text-white">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Logout</span></a>
             </li>
@@ -166,3 +166,7 @@ if($_SESSION['role'] == 'instructor'){
             </div>
         </div>
     </div>
+
+    
+
+    

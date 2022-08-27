@@ -34,7 +34,7 @@ if($rows>0)
             $_SESSION['loggedin'] = $login;
             
             
-            header('Location: http://localhost/IPD%20Codes/WeekEnd/WeekEnd/dashboard.php');
+            header('Location: http://localhost/ipdcheck-master/Admin-panel/dashboard.php');
     }
     }
     if($login == false){

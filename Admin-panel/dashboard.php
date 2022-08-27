@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true ){
 
-    header("location: http://localhost/IPD%20Codes/WeekEnd/WeekEnd/login.php" );
+    header("location: http://localhost/ipdcheck-master/Admin-panel/login.php" );
     exit;
 
 }
